@@ -326,3 +326,89 @@ overflow: hidden;
 .albumpic{
     display: flex;
 }
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    height: auto;
+    padding: 0.5rem;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .maincontent {
+    width: 100%;
+    margin-bottom: 83px;
+    padding: 1rem;
+  }
+
+  .stickynav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .stickynavoption {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .stickynavoption button {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .cardcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .card {
+    width: 90% !important;
+  }
+
+  .musicplayer {
+    flex-direction: column;
+    height: auto;
+    padding: 0.5rem;
+  }
+
+  .album,
+  .player,
+  .control {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .albumpic {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .controlicon {
+    justify-content: center;
+    display: flex;
+  }
+
+  .stickynavoption i {
+    margin-left: 0.5rem;
+  }
+
+  .cardtitle,
+  .cardp {
+    text-align: center;
+  }
+}
